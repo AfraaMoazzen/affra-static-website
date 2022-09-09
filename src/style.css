@@ -1,0 +1,116 @@
+:root {
+  --primary-color: rgb(11, 132, 145);
+  --secondary-color: rgb(35, 47, 49);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  color: white;
+  margin: 10px auto;
+  max-width: 1000px;
+  background: linear-gradient(
+    109.6deg,
+    var(--secondary-color) 11.2%,
+    var(--primary-color) 91.1%
+  );
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.lunchBut {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.col-md-4 {
+  box-shadow: var(--box-shadow);
+  display: flex;
+  width: 33.3%;
+  justify-content: space-evenly;
+}
+
+.col-md-6 {
+  margin-top: 25px;
+}
